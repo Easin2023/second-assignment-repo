@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;600;700;800&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header nav section style */
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+nav{
+   max-width: 1200px;
+    margin: 0 auto;
+    align-items:center ;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-img img{
+    width: 60px;
+    height: 36px;
+    /* object-fit: cover; */
+}
+.nav-img h1{
+    padding-left: 15px;
+    font-size: 30px;
+}
+.nav-span{
+    color:hotpink;
+}
+.nav-img{
+    align-items: center;
+    width: 50%;
+    display: flex;
+}
+.nav-title{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-title a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+}
+.title-icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 16px;
+}
+#youtube{
+    padding-left: 10px;
+    color: red;
+}
+#tiktok{
+    padding-left: 10px;
+    color: black;
+}

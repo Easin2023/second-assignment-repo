@@ -1,0 +1,19 @@
+@media screen and (max-width:526px) {
+    nav{
+        flex-direction: column;
+        
+    }
+    .nav-img{
+    }
+    .nav-title{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .title-icon{
+        margin-top: 20px;
+        display: flex;
+    }
+    #a{
+        margin-top: 20px;
+    }
+}
