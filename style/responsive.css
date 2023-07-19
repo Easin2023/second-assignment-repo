@@ -16,4 +16,14 @@
     #a{
         margin-top: 20px;
     }
+
+
+/* main section responsive */
+    .section-1{
+        flex-direction: column;
+    }
+    .colume-1{
+        width: 100%;
+    }
 }
+
