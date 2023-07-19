@@ -141,10 +141,20 @@ nav{
 /* section-2 style start */
 
 .section-2{
+    max-width: 1400px;
+    margin: 0px auto;
     text-align: center;
 }
 .image-container img{
+    padding-left: 10px;
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.image-container{
     padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 .section-2-h1{
     margin-top: 120px;
@@ -255,6 +265,67 @@ nav{
     justify-content: space-around;
 }
 
+
+/* footer-section */
+.footer-section{
+    background: #0B0223;
+    width: 1400px;
+    height: 600px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.footer-title{
+    justify-content: center;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.footer-title img{
+    width: 60px;
+    height: 36px;
+    padding-right: 10px;
+}
+.footer-title h1{
+    color: #FFF;
+}
+.footer-nav a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-icon a i{
+    padding-top: 50px;
+    width: 85px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 50px;
+}
+.footer-about{
+    padding-top: 75px;
+}
+.footer-about a{
+    
+    padding-left: 70px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-{
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
 /* responsive site */
 @media screen and (max-width:526px) {
     nav{
@@ -321,6 +392,9 @@ nav{
     .section-2-p{
         font-size: 11px;
     }
+    .image-container{
+        flex-direction: column;
+    }
     .image-container img{
         margin-bottom: 20px;
     }
@@ -384,4 +458,28 @@ nav{
         padding-left: 5px;
     }
 
+    /* footer-section */
+    .footer-section{
+        width: 100%;
+    }
+    .footer-nav a{
+        padding-left: 25px;
+        font-size: 8px;
+    }
+    .footer-icon a i{
+        padding-top: 50px;
+        width: 50px;
+        font-size: 20px;
+    }
+    .footer-about {
+        padding-top: 28px;
+    }
+    .footer-about a{
+        padding-left: 20px;
+        font-size: 8px;
+    }
+    .footer-{
+        padding-top: 20px;
+        font-size: 11px;
+    }
 }
