@@ -208,6 +208,52 @@ nav{
     font-weight: 400;
     line-height: 15px; /* 166.667% */
 }
+/* section-4-btn */
+.section-4{
+    max-width: 1400px;
+    margin: 0px auto;
+}
+.second-card{
+    margin-left: 140px;
+}
+.card{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #F948B2;
+    padding-left: 10px;
+    width: 315px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.card:hover{
+    background-color: #F948B2;
+    border: 3px solid #F948B2;
+}
+.card img{
+    padding-left: 15px;
+}
+.card h1{
+    padding-left: 10px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-container{
+    /* display: grid; */
+    /* grid-template-columns: repeat(5,1fr); */
+    display: flex;
+    justify-content: space-around;
+}
+.second-card{
+    /* display: grid; */
+    /* grid-template-columns: repeat(4,1fr); */
+    display: flex;
+    justify-content: space-around;
+}
 
 /* responsive site */
 @media screen and (max-width:526px) {
@@ -307,6 +353,35 @@ nav{
         padding-top: 38px;
         padding-left: 60px;
         width: 140px;
+    }
+
+    /* section-4 */
+    .card-container{
+        margin: 0px 0px;
+        flex-wrap: wrap;
+    }
+    .second-card{
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+    .card{
+        padding-left: 10px;
+        width: 155px;
+        height: 50px;
+        border-radius: 50px;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+    }
+    .card h1{
+        padding-left: 10px;
+        color: #0B0223;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .card img{
+        width: 30px;
+        padding-left: 5px;
     }
 
 }
